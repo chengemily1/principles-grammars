@@ -1,8 +1,8 @@
 # FILE FORMATS
-all_tokens_df_format = '/home/echeng/morph_systems_entropy/wiki/{}/all_tokens_{}_wikipedia.csv' 
-all_types_df_format = '/home/echeng/morph_systems_entropy/wiki/{}/all_types_{}_wikipedia.csv' 
-anim_tokens_df_format = '/home/echeng/morph_systems_entropy/wiki/{}/anim_tokens_{}_wikipedia.csv'
-anim_types_df_format = '/home/echeng/morph_systems_entropy/wiki/{}/anim_types_{}_wikipedia.csv'
+all_tokens_df_format = '/save/path.csv' 
+all_types_df_format = '/save/path.csv' 
+anim_tokens_df_format = '/save/path.csv' 
+anim_types_df_format = '/save/path.csv' 
 
 wordnet_mapping = {
     'de': 'deu', # [x]

@@ -46,8 +46,8 @@ if lang == 'he':
     ANIMATE_NOUNS = {str(Hebrew(noun).text_only()).replace('!', '') for noun in ANIMATE_NOUNS}
 
 fpaths = [
-    f'/home/echeng/morph_systems_entropy/wiki/{lang}/{lang}_{i}_wikipedia.conllu' for i in range(20) 
-    if os.path.exists(f'/home/echeng/morph_systems_entropy/wiki/{lang}/{lang}_{i}_wikipedia.conllu')
+    f'/path/to/language.conllu' for i in range(20) 
+    if os.path.exists(f'/path/to/language.conllu')
 ]
 
 # CONSTRUCT LIST OF ALL TOKENS

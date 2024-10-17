@@ -48,10 +48,6 @@ def clean_doc(doc: str, lang: str):
 
 def removeunicode(text):
     return re.sub(r'[^ A-Za-z0-9À-ÖØ-öø-ÿ/.\']+', '', text)
-    #bytes = text.encode('ascii', 'ignore')
-    #text = bytes.decode()
-    #return text
 
 if __name__ == '__main__':
-    #tag_data('fr', '/home/echeng/morph_systems_entropy/oscar/french.json')
-    tag_data('es', '/home/echeng/morph_systems_entropy/oscar/spanish.json')
+    pass

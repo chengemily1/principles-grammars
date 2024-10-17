@@ -18,7 +18,7 @@ ANIMATE_SYNSETS = [synset for synset in SYNSETS if synset.lexname() in ['noun.an
 GERMAN_SYNSETS = wordnet.synsets(pos='n', lexicon='odenet:1.4')
 GERMAN_WORDS = wordnet.words(pos='n', lexicon='odenet:1.4')
 
-de_lemmas_file = open('/home/echeng/morph_systems_entropy/german_animate_lemmas_from_english.txt', 'r')
+de_lemmas_file = open('/path/to/german_animate_lemmas_from_english.txt', 'r')
 GERMAN_ANIMATE_LEMMAS = de_lemmas_file.read().split('\n')
 de_lemmas_file.close()
 
